@@ -11,25 +11,25 @@ import { Card } from "../Card";
 
 const offer = [
   {
-    img: "/images/small-boy-feeding-horse-farm-zoo.jpg",
+    img: "images/small-boy-feeding-horse-farm-zoo.jpg",
     name: "Dogoterapia",
     description:
       "Terapia psychologiczna dla dzieci i młodzieży z udziałem psa terapeutycznego.",
   },
   {
-    img: "/images/small-boy-feeding-horse-farm-zoo.jpg",
+    img: "images/small-boy-feeding-horse-farm-zoo.jpg",
     name: "Pies wspierający",
     description:
       "Tutaj potrzebny jest krótki tekst. Tutaj potrzebny jest krótki tekst.",
   },
   {
-    img: "/images/small-boy-feeding-horse-farm-zoo.jpg",
+    img: "images/small-boy-feeding-horse-farm-zoo.jpg",
     name: "Zajęcia rozwojowe ze zwierzętami",
     description:
       "Warsztaty rozwoju osobistego dla dorosłych. Tu zwierzęta inspirują do odkrywania siebie na nowo.",
   },
   {
-    img: "/images/small-boy-feeding-horse-farm-zoo.jpg",
+    img: "images/small-boy-feeding-horse-farm-zoo.jpg",
     name: "Trening umiejętności społecznych z udziałem zwierząt",
     description:
       "Przygoda ze zwierzętami rozwijająca umiejętności społeczne dzieci i młodzieży. Zajęcia grupowe",

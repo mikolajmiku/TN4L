@@ -13,7 +13,7 @@ export const AboutUs = () => (
     <Box flex="1" pl={{ base: "unset", lg: 0 }} alignItems="center">
       <Image
         objectFit="contain"
-        src="/images/small-boy-feeding-horse-farm-zoo.jpg"
+        src="images/small-boy-feeding-horse-farm-zoo.jpg"
         alt="Small bou feeding gorse on farm"
       />
     </Box>
