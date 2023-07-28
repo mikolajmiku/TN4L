@@ -6,7 +6,7 @@ const Logo = () => (
     <Box>
       <Image
         alt="Fundacja na czterech łapach Logo"
-        src="/logos/heart_logo_yellow.svg"
+        src="logos/heart_logo_yellow.svg"
         sizes="contain"
       />
     </Box>
