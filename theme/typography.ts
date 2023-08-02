@@ -1,6 +1,6 @@
 export const fonts = {
-  body: "open sans, sans-serif",
-  heading: "Open Sans Condensed, Open sans, sans-serif",
+  body: "Open Sans, sans-serif",
+  heading: "Open Sans, sans-serif",
 };
 
 const fontSizes = {
