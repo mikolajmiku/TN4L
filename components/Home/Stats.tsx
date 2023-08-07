@@ -45,7 +45,7 @@ export const Stats = () => (
         >
           <Text
             fontSize="7xl"
-            fontFamily="Open Sans Condensed"
+            sx={{ fontStretch: "condensed" }}
             fontWeight="bold"
             color="textSecondary"
           >

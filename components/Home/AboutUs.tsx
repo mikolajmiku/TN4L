@@ -10,7 +10,7 @@ export const AboutUs = () => (
     alignItems="center"
     gap={{ base: 4, lg: 8 }}
   >
-    <Box flex="1" pl={{ base: "unset", lg: 0 }} alignItems="center">
+    <Box flex="2" pl={{ base: "unset", lg: 0 }} alignItems="center">
       <Image
         objectFit="contain"
         src="images/small-boy-feeding-horse-farm-zoo.jpg"
@@ -24,13 +24,13 @@ export const AboutUs = () => (
       gap={{ base: 8, lg: "unset" }}
       alignSelf="stretch"
     >
-      <Heading as="h2">O nas</Heading>
-      <Text as="p">
-        Fundacja powstała w 2018 roku. Skąd pomysł na jej założenie? Kilka lat
-        temu pracowaliśmy w jednej z wrocławskich świetlic środowiskowych, w
-        której gośćmi często były pieski. Zaobserwowaliśmy tam, że obecność
-        czworonogów poprawia dzieciom i młodzieży samopoczucie oraz wpływa
-        pozytywnie na ich zachowanie.
+      <Heading as="h1">O Fundacji</Heading>
+      <Text as="p" textAlign="justify">
+        Prowadzimy zajęcia z udziałem zwierząt dla osób z niepełnosprawnościami
+        oraz dla dzieci i młodzieży w trudnej sytuacji życiowej lub mających
+        problemy w relacjach społecznych. Specjalizujemy się w prowadzeniu
+        dogoterapii. Współtworzymy programy terapeutyczne z przewodnikami innych
+        zwierząt (np. koni, alpak).
       </Text>
       <Text as="p">
         Jako specjaliści (psychologowie) i właściciele zwierząt, zaczęliśmy
