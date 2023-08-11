@@ -25,7 +25,8 @@ export const CardHorizontal = ({ img, name, description }: OfferProps) => (
       <Heading 
         size="md" 
         as="h3" 
-        textColor="white">
+        textColor="white"
+        marginLeft={{ base: "15px", lg: "0px" }}>
         {name}
       </Heading>
       <Image 
