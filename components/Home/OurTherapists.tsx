@@ -5,7 +5,6 @@ import {
   Grid,
   Heading,
   Text,
-  useColorMode,
 } from "@chakra-ui/react";
 
 import { CardHorizontal } from "../CardHorizontal";
@@ -25,21 +24,19 @@ const offer = [
   },
 ];
 
-export const OurTherapists = () => {
-  const { colorMode } = useColorMode();
-  return (
+export const OurTherapists = () => (
     <Flex
       as="section"
       direction="column"
       p={{ base: 5, lg: 12 }}
-      bg={`${colorMode}.bgTertiary`}
+      bg="bgTertiary"
       alignItems={{ base: "flex-start", lg: "center" }}
     >
       <Flex 
         direction="column"
         maxW="container.md"
         gap={{ base: 7, sm: 10, lg: 20 }}
-        alignItems={{ base: "start", lg: "center" }}
+        alignItems={{ base: "center", lg: "center" }}
       >
         <Heading 
           as="h2" 
@@ -49,14 +46,11 @@ export const OurTherapists = () => {
           as="p" 
           paddingLeft={{ base: 0, lg: 20 }}
           paddingRight={{ base: 0, lg: 20 }}
-          textAlign={{ base: "start" }}
+          textAlign={{ base: "center", lg: "start" }}
           textColor="white"
         >
         Psy terapeutyczne są niezwykle wartościowymi towarzyszami dla osób z różnymi potrzebami emocjonalnymi i fizycznymi. Poznaj naszych psich terapeutów. 
         </Text>
-        <Box display={{ base: "block", lg: "none" }}>
-          <Button>Poznaj nasz zespól</Button>
-        </Box>
         <Grid
           gridTemplateColumns={{ base: "1fr", lg: "1fr 1fr" }}
           gap={{ base: 8, lg: 4 }}
@@ -65,10 +59,9 @@ export const OurTherapists = () => {
             <CardHorizontal key={index} img={img} name={name} description={description} />
           ))}
         </Grid>
-        <Box display={{ base: "none", lg: "block" }}>
+        <Box>
           <Button>Poznaj nasz zespól</Button>
         </Box>
       </Flex>
     </Flex>
   );
-};

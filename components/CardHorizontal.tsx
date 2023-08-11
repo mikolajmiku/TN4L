@@ -9,20 +9,31 @@ export type OfferProps = {
 export const CardHorizontal = ({ img, name, description }: OfferProps) => (
   <Flex
     flexDir="column"
-    gap="4"
     justifyContent="center"
+    gap="4"
     alignItems="start"
     alignSelf="flex-start"
     textColor="white"
     color="white"
   >
-    <Heading 
-      size="md" 
-      as="h3" 
-      textColor="white">
-      {name}
-    </Heading>
-    <Image objectFit="contain" src={img} alt={name} />
+    <Flex 
+      gap="4"
+      flexDir={{ base: "row-reverse", lg: "column" }}
+      alignItems={{ base: "center", lg: "flex-start" }}
+      justifyContent={{ base: "start", lg: "start" }}
+    >
+      <Heading 
+        size="md" 
+        as="h3" 
+        textColor="white">
+        {name}
+      </Heading>
+      <Image 
+        objectFit="contain" 
+        src={img} 
+        alt={name}
+        width={{ base: "50%",  lg: "100%"}} />
+    </Flex>
     <Text textColor="white">{description}</Text>
   </Flex>
 );
