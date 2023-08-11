@@ -5,11 +5,13 @@ import {
   Flex,
   Grid,
   GridItem,
+  Heading,
   Image,
   Link,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 
+import ContactForm from "../ContactForm";
 import Copyright from "./Copyright";
 
 //TODO: Replace this with Richtext from Strapi CMS
@@ -46,12 +48,12 @@ const Richtext2 = () => (
 
 const SocialLinks = [
   {
-    src: "/socialIcons/facebook.svg",
+    src: "socialIcons/facebook.svg",
     alt: "facebook icon",
     href: "https://www.facebook.com/Terapeutana4lapach/",
   },
   {
-    src: "/socialIcons/youtube.svg",
+    src: "socialIcons/youtube.svg",
     alt: "facebook icon",
     href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   },
@@ -70,22 +72,21 @@ const Footer = () => (
           flexDir="column"
           gap={6}
           textColor="textPrimary"
-          templateRows={{ md: "repeat(3, auto)", base: "auto" }}
+          templateRows={{ md: "repeat(2, auto)", base: "auto" }}
           templateColumns={{ md: "auto", base: "1fr" }}
-          gridAutoFlow={{ base: "row", md: "column" }}
         >
-          <GridItem colSpan={{ base: 1, md: 2 }}>
-            <Image
-              width="full"
-              maxWidth="380px"
-              src="/logos/logo_color.svg"
-              alt="Logo Fundacji na 4 Łapach"
-            />
-          </GridItem>
-          <p>
-            <Richtext1 />
-          </p>
-          <Flex gap={6}>
+          <Image
+            width="full"
+            maxWidth="380px"
+            src="logos/logo_color.svg"
+            alt="Logo Fundacji na 4 Łapach"
+          />
+          <GridItem colSpan={{ base: 1, md: 3 }} />
+
+          <Flex flexDir="column" gap={6}>
+            <p>
+              <Richtext1 />
+            </p>
             {SocialLinks.map(({ src, alt, href }, index) => (
               <Link as={NextLink} href={href} key={index} isExternal>
                 <Image alt={alt} src={src} />
@@ -95,8 +96,14 @@ const Footer = () => (
           <Flex flexDir="column" gap={6} alignItems="flex-start">
             <p>
               <Richtext2 />
-            </p>
+            </p>{" "}
             <Button>Wpłać</Button>
+          </Flex>
+          <Flex flexDir="column" gap={6}>
+            <Heading as="h1" color="textPrimary">
+              Napisz do nas!
+            </Heading>
+            <ContactForm />
           </Flex>
         </Grid>
       </Container>

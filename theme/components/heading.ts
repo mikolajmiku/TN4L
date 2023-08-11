@@ -15,7 +15,7 @@ export const CustomHeadingStyle: ComponentStyleConfig = {
     },
   },
   baseStyle: ({ colorMode }) => ({
-    fontFamily: "Open Sans Condensed",
+    fontStretch: "condensed",
     letterSpacing: "4px",
     fontWeight: 700,
     color: `${colorMode}.textPrimary`,
