@@ -1,4 +1,4 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 
 import { Counter } from "../Counter";
 
@@ -24,8 +24,11 @@ export const Stats = () => (
     justifyContent="center"
     maxW="container.xl"
     alignSelf="center"
-    pb="200px"
+    alignItems={{ base: "flex-start", lg: "center" }}
+    direction="column"
+    gap={{ base: 7, sm: 10, lg: 20 }}
   >
+    <Heading as="h2">Liczby i osiągnięcia naszej Fundacji</Heading>
     <Flex justifyContent="center" flexWrap="wrap" gap="5">
       {statistics.map(({ text, amount }, index) => (
         <Flex
