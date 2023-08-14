@@ -11,13 +11,13 @@ import { CardHorizontal } from "../CardHorizontal";
 
 const offer = [
   {
-    img: "/images/dog_1.jpg",
+    img: "images/dog_1.jpg",
     name: "Luna",
     description:
       "Czarna labradorka, pies terapeutyczny. Najbardziej lubi pracę z dziećmi i młodzieżą. Kocha pływać, aportować, szukać schowanych zabawek. Chętnie wykonuje sztuczki, szybko się uczy, ma dużą motywację do współpracy. Lubi znajdować się w centrum uwagi i być głaskana.",
   },
   {
-    img: "/images/dog_2.jpg",
+    img: "images/dog_2.jpg",
     name: "Forest",
     description:
       "Biszkoptowy kundelek, pies terapeutyczny. Chętnie bierze udział w zajęciach z młodzieżą lub z osobami dorosłymi. Lubi biegać, trenować rally-o, bawić się z innymi psami. Uczestnik dogtrekkingów i psich obozów. Jest spokojny i cierpliwy.",
