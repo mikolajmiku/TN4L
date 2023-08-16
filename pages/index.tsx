@@ -6,6 +6,7 @@ import { ImageDivider } from "../components/Home/ImageDivider";
 import { OurActions } from "../components/Home/OurActions";
 import { OurOffer } from "../components/Home/OurOffer";
 import OurPartners from "../components/Home/OurPartners";
+import { OurTherapists } from "../components/Home/OurTherapists";
 import { Stats } from "../components/Home/Stats";
 import Layout from "../components/Layout";
 
@@ -18,6 +19,7 @@ const IndexPage = () => (
       <ImageDivider />
       <Stats />
       <OurPartners />
+      <OurTherapists />
       <Footer />
     </Flex>
   </Layout>
