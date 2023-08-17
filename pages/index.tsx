@@ -18,8 +18,8 @@ const IndexPage = () => (
       <OurActions />
       <ImageDivider />
       <Stats />
-      <OurPartners />
       <OurTherapists />
+      <OurPartners />
       <Footer />
     </Flex>
   </Layout>
