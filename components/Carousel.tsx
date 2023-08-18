@@ -36,6 +36,10 @@ const Carousel = () => {
         centerMode={true}
         activeSlideIndex={activeSlideIndex}
         onRequestChange={setActiveSlideIndex}
+        autoplay={true}
+        autoplayDelay={5000}
+        speed={300}
+        easing="cubic-bezier(0.3,0.2,0.2,1.4)"
         containerProps={{
           style: {
             flexWrap: "nowrap",
