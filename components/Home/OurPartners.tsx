@@ -1,5 +1,7 @@
 import { Container, Flex, Heading, Text } from "@chakra-ui/react";
 
+import Carousel from "../Carousel";
+
 const OurPartners = () => (
   <Flex
     as="section"
@@ -16,7 +18,7 @@ const OurPartners = () => (
         zwierzętami i w naturze.
       </Text>
     </Container>
-    {/* Partnerzy slider */}
+    <Carousel />
   </Flex>
 );
 
