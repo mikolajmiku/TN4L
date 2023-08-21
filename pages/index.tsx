@@ -9,6 +9,7 @@ import { OurOffer } from "../components/Home/OurOffer";
 import OurPartners from "../components/Home/OurPartners";
 import { OurTherapists } from "../components/Home/OurTherapists";
 import { Stats } from "../components/Home/Stats";
+import { SupportUs } from "../components/Home/SupportUs";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
@@ -21,6 +22,7 @@ const IndexPage = () => (
       <Stats />
       <OurTherapists />
       <News />
+      <SupportUs />
       <OurPartners />
       <Footer />
     </Flex>

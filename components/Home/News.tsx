@@ -26,7 +26,7 @@ export const News = () => (
     as="section"
     direction="column"
     gap={{ base: 4, lg: 8 }}
-    alignItems={{ base: "start", lg: "center" }}
+    alignItems={{ base: "center" }}
     alignSelf="center"
     maxW="container.lg"
   >
