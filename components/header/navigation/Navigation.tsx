@@ -8,11 +8,11 @@ interface Props {
 }
 
 const routes: { link: string; text: string }[] = [
-  { link: "/", text: "Kim Jesteśmy" },
-  { link: "/o-nas", text: "O nas" },
+  { link: "/o-nas", text: "O fundacji" },
   { link: "/aktualności", text: "Aktualności" },
-  { link: "/dzialania", text: "Działania" },
   { link: "/oferta", text: "Oferta" },
+  { link: "/wesprzyj", text: "Wesprzyj nas" },
+  { link: "/kontakt", text: "Kontakt" },
 ];
 
 const Navigation = ({ type }: Props) => {
@@ -23,7 +23,7 @@ const Navigation = ({ type }: Props) => {
       padding={8}
       display="flex"
       alignItems={desktopView ? "center" : "start"}
-      columnGap={{ base: 4, xl: 8 }}
+      columnGap={{ base: 4, xl: 16 }}
       whiteSpace="nowrap"
       flexDirection={desktopView ? "row" : "column"}
     >

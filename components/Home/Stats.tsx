@@ -5,9 +5,9 @@ import { Counter } from "../Counter";
 const statistics = [
   {
     text: "przeprowadzonych warsztatów od początku naszej działalności",
-    amount: "25+",
+    amount: "25",
   },
-  { text: "uczestników zajęć rozwojowych do tej pory", amount: "40+" },
+  { text: "uczestników zajęć rozwojowych do tej pory", amount: "40" },
   {
     text: "zwierząt otwartych na kontakt z człowiekiem w celach terapeutycznych",
     amount: "12",
@@ -16,7 +16,7 @@ const statistics = [
     text: "organizacji oraz firm wspólpracujących z nami na stałe",
     amount: "8",
   },
-  { text: "lat działalności", amount: "2022+" },
+  { text: "lat działalności", amount: "2022" },
 ];
 
 export const Stats = () => (
@@ -39,7 +39,7 @@ export const Stats = () => (
           alignItems="center"
           textAlign="center"
           key={index}
-          maxH={{ base: "240px", lg: "270px" }}
+          height={{ base: "240px", lg: "280px" }}
           maxW={{ base: "320px", lg: "360px" }}
           w="full"
           h="full"
@@ -52,7 +52,7 @@ export const Stats = () => (
             fontWeight="bold"
             color="textSecondary"
           >
-            <Counter from={0} to={amount} />+
+            <Counter from={0} to={amount} />
           </Text>
           <Text color="textSecondary">{text}</Text>
         </Flex>

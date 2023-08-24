@@ -51,12 +51,7 @@ const SocialLinks = [
     src: "socialIcons/facebook.svg",
     alt: "facebook icon",
     href: "https://www.facebook.com/Terapeutana4lapach/",
-  },
-  {
-    src: "socialIcons/youtube.svg",
-    alt: "facebook icon",
-    href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  },
+  }
 ];
 
 const Footer = () => (

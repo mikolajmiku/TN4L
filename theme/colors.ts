@@ -5,6 +5,7 @@ export const colors = {
   bgPrimary: "white",
   bgSecondary: "#D5E4CD",
   bgTertiary: "#333232",
+  bgFourth: "rgba(218, 212, 212, 0.4)",
   black: "#2E2E30",
   lightGrey: "#dadada",
   darkGrey: "#6c6c6c",
@@ -15,6 +16,7 @@ export const colors = {
     bgPrimary: "white",
     bgSecondary: "#D5E4CD",
     bgTertiary: "#333232",
+    bgFourth: "rgba(218, 212, 212, 0.4)",
   },
   dark: {
     textPrimary: "#FFFFFF",
@@ -22,5 +24,6 @@ export const colors = {
     bgPrimary: "white",
     bgSecondary: "#333232",
     bgTertiary: "#333232",
+    bgFourth: "#333232",
   },
 };

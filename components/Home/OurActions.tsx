@@ -30,14 +30,13 @@ export const OurActions = () => (
     alignSelf="center"
     maxW="container.lg"
   >
-    <Heading as="h2">Nasze działania</Heading>
-    <Text>
+    <Heading as="h2">Nasze projekty</Heading>
+    <Text maxW={{ base: "100%", lg: "70%" }} textAlign="justify">
       Projekty dają nam możliwość realizacji innowacyjnych pomysłów na zajęcia z
       udziałem zwierzą. W ten sposób wspieramy rehabilitację osób
       niepełnosprawnych oraz rozwój dzieci i młodzieży. Przeczytaj o naszych
       najważniejszych działaniach.
     </Text>
-
     <Grid
       gap="4"
       templateColumns={{ base: "1fr", lg: "repeat(3, 1fr)" }}

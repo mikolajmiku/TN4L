@@ -4,7 +4,7 @@ export const SupportUs = () => (
   <Flex
     as="section"
     direction="column"
-    p={{ base: 5, lg: 12 }}
+    padding={{ base: "50px 15px", lg: "90px 0px" }}
     bg="bgTertiary"
     alignItems={{ base: "center" }}
     gap={{ base: 10 }}
@@ -49,7 +49,7 @@ export const SupportUs = () => (
           <Heading size="md" as="h3" textColor="white">Zostań wolontariuszem!</Heading>
         </Box>
         <Box>
-          <Button>Więcej</Button>
+          <Button size="lg">Więcej</Button>
         </Box>
       </Flex>
     </Flex>
