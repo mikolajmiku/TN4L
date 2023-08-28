@@ -60,7 +60,7 @@ export const OurOffer = () => {
         </Text>
         <Grid
           gridTemplateColumns={{ base: "1fr" }}
-          gap={{ base: 8, lg: 16 }}
+          gap={{ base: 4, lg: 8 }}
         >
           {offer.map(({ img, name, description }, index) => (
             <Card key={index} img={img} name={name} description={description} />

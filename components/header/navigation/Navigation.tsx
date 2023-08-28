@@ -20,7 +20,6 @@ const Navigation = ({ type }: Props) => {
 
   return (
     <List
-      padding={8}
       display="flex"
       alignItems={desktopView ? "center" : "start"}
       columnGap={{ base: 4, xl: 16 }}

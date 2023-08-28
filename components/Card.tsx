@@ -23,7 +23,7 @@ export const Card = ({ img, name, description }: OfferProps) => (
       <Heading size="md" as="h3">
         {name}
       </Heading>
-      <Text>{description}</Text>
+      <Text textColor="textSecondary">{description}</Text>
       <Box pt={{ base: 15, lg: 25}}>
         <Button size="lg">Więcej</Button>
       </Box>

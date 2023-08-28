@@ -14,7 +14,7 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => (
   <Layout>
-    <Flex direction="column" gap="32">
+    <Flex direction="column" gap={{ base: 16, lg: 32 }}>
       <AboutUs />
       <OurOffer />
       <OurActions />
