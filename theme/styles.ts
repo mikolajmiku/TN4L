@@ -1,3 +1,7 @@
 export const styles = {
-  global: {},
+  global: {
+    li: {
+      listStylePosition: "inside"
+    }
+  },
 };

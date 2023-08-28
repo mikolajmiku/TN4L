@@ -28,7 +28,7 @@ export const OurTherapists = () => (
     <Flex
       as="section"
       direction="column"
-      p={{ base: 5, lg: 12 }}
+      padding={{ base: "50px 15px", lg: "90px 0px" }}
       bg="bgTertiary"
       alignItems={{ base: "flex-start", lg: "center" }}
     >
@@ -60,7 +60,7 @@ export const OurTherapists = () => (
           ))}
         </Grid>
         <Box>
-          <Button>Poznaj nasz zespól</Button>
+          <Button size="lg">Poznaj nasz zespól</Button>
         </Box>
       </Flex>
     </Flex>

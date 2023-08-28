@@ -20,25 +20,18 @@ export const AboutUs = () => (
     <Flex
       flex="1"
       direction="column"
-      justifyContent="space-between"
-      gap={{ base: 8, lg: "unset" }}
+      gap={{ base: 15, lg: 30 }}
       alignSelf="stretch"
     >
       <Heading as="h1">O Fundacji</Heading>
-      <Text as="p" textAlign="justify">
-        Prowadzimy zajęcia z udziałem zwierząt dla osób z niepełnosprawnościami
-        oraz dla dzieci i młodzieży w trudnej sytuacji życiowej lub mających
-        problemy w relacjach społecznych. Specjalizujemy się w prowadzeniu
-        dogoterapii. Współtworzymy programy terapeutyczne z przewodnikami innych
-        zwierząt (np. koni, alpak).
-      </Text>
-      <Text as="p">
-        Jako specjaliści (psychologowie) i właściciele zwierząt, zaczęliśmy
-        zastanawiać się, jak do placówki wprowadzić psiego terapeutę. I wtedy
-        zaczęła się nasza przygoda.
+      <Text 
+        as="p" 
+        textAlign="justify" 
+      >
+      Prowadzimy zajęcia z udziałem zwierząt dla osób z niepełnosprawnościami oraz dla dzieci i młodzieży w trudnej sytuacji życiowej lub mających problemy w relacjach społecznych. Specjalizujemy się w prowadzeniu dogoterapii. Współtworzymy programy terapeutyczne z przewodnikami innych zwierząt (np. koni, alpak).
       </Text>
       <Box>
-        <Button>Dowiedz się więcej</Button>
+        <Button size='lg'>Dowiedz się więcej</Button>
       </Box>
     </Flex>
   </Flex>
